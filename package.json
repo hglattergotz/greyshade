@@ -1,0 +1,26 @@
+{
+  "name": "greyshade",
+  "version": "1.0.0",
+  "description": "Static asset builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hglattergotz/greyshade.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "Henning Glatter-Götz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hglattergotz/greyshade/issues"
+  },
+  "homepage": "https://github.com/hglattergotz/greyshade#readme",
+  "devDependencies": {
+    "compass-mixins": "^0.12.7",
+    "node-sass": "^3.4.2"
+  }
+}
