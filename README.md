@@ -17,6 +17,7 @@ Now all the development dependencies should be installed.
 Next, edit the sass files as needed in ```static/sass```
 
 Compiling the sass
+```
 $ npm run compile
 ```
 
