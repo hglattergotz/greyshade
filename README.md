@@ -1,6 +1,29 @@
 Greyshade (**this is a clone of shashankmehta/greyshade**)
 ============
 
+The dependency on Ruby and compass is removed in this version. Instead it uses node.js to compile the sass source files.
+
+### Installation
+
+### SASS compile step
+
+This requires an installation of node.js
+
+```bash
+$ npm install
+```
+
+Now all the development dependencies should be installed.
+Next, edit the sass files as needed in ```static/sass```
+
+Compiling the sass
+$ npm run compile
+```
+
+NOTE: The node script /bin/build.js passes a function to the sass compiler to rewrite the image url. Edit this if needed.
+
+## Original README
+
 [Greyshade](http://github.com/shashankmehta/greyshade) is a minimal, responsive theme ported from Octopress.
 
 For demo, check out websites from the [wiki](https://github.com/shashankmehta/greyshade/wiki/Sites-using-Greyshade/)

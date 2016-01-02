@@ -4,7 +4,7 @@
   "description": "Static asset builder",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "./bin/build.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/hglattergotz/greyshade#readme",
   "devDependencies": {
     "compass-mixins": "^0.12.7",
+    "eyeglass": "^0.8.0",
     "node-sass": "^3.4.2"
   }
 }
